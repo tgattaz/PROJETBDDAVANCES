@@ -6,8 +6,6 @@ var Pokemon = require('./../models/Pokemon');
 var Type = require('./../models/Type');
 
 router.get('/', (req,res) => {
-  console.log(req.query.sort);
-  console.log(req.query.name);
   if (req.query.sort){
     if (req.query.name) {
       Pokemon.find({ name:{"$regex": '^' + req.query.name, "$options": "i"} }).sort({ name: 1 }).populate('types').then(pokemons => {

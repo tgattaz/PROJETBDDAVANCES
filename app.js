@@ -13,6 +13,8 @@ mongoose.connect('mongodb://localhost/pokedex', { useNewUrlParser: true });
 require('./models/Pokemon');
 require('./models/Type');
 
+
+
 var app = express();
 
 //ici bodyparser ne sert à rien car notre formulaire est encodé en multiparse/form-data et décoder par du multer
