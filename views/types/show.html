@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <h2>Pokémons de type <span style="color: {{type.color}}">{{type.name}}</span></h2>
+  <a href="/types/edit/{{type._id}}" class="btn btn-primary">Editer</a>
+  <a href="/types/delete/{{type._id}}" class="btn btn-danger">Supprimer</a>
+  <hr>
+    {% for p in pokemons %}
+    <div class="card card-primary">
+      <div class="card-header">
+        <a href="/{{p.id}}">{{p.name}} | n°{{p.number}}</a>
+      </div>
+      <div class="card-body">
+        {{p.description}}
+      </div>
+  </div>
+  {% endfor %}
+{% endblock %}

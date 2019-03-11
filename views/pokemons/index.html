@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <h2>Pokémons</h2>
+  <a href="/new" class="btn btn-primary">Ajouter un pokémon</a>
+  <a href="/types/new" class="btn btn-primary">Ajouter un type</a>
+  <hr>
+  <form method="GET" action="/" enctype="multipart/form-data">
+  <label for="name">Recherche d'un pokémon</label>
+  <div class="form-row">
+    <div class="col"><input type="text" id="name" name="name" class="form-control" value=""></div>
+    <div class="col"><input type="submit" class="btn btn-primary" value="Rechercher"></div>
+  </form>
+  <form method="GET" action="/" enctype="multipart/form-data">
+     <div class="col"><input type="checkbox" id="sort" name="sort" onclick='this.form.submit();' value="nom" >
+      <label for="nom">Tri par nom</label></div>
+  </form>
+    <hr>
+  </div>
+
+
+  <hr>
+    {% for p in pokemons %}
+    <div class="card card-primary">
+      <div class="card-header">
+        <a href="/{{p.id}}">{{p.name}} | n°{{p.number}}</a>
+        {% for t in p.types %}
+        <a href="/types/{{t.name}}" style="background-color: {{t.color}}" class="badge badge-pill badge-primary">{{t.name}}</a>
+        {% endfor %}
+      </div>
+      <div class="card-body">
+        {{p.description}}
+      </div>
+  </div>
+  {% endfor %}
+
+{% endblock %}
+
