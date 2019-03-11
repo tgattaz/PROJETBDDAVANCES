@@ -15,4 +15,3 @@
 { "_id" : { "$oid" : "5c814279c1ff45c24c6c5431" }, "name" : "Glace", "color" : "paleturquoise" }
 { "_id" : { "$oid" : "5c8144c7c1ff45c24c6c545b" }, "name" : "Spectre", "color" : "rebeccapurple" }
 { "_id" : { "$oid" : "5c817145c1ff45c24c6c5468" }, "name" : "Dragon", "color" : "darkviolet" }
-{ "_id" : { "$oid" : "5c86394d4c911b3c2470a1c6" }, "name" : "test", "color" : "purple", "__v" : 0 }
