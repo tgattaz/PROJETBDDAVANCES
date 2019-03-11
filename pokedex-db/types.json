@@ -1,0 +1,18 @@
+{ "_id" : { "$oid" : "5c80cc1cc1ff45377c4fb930" }, "name" : "Eau", "color" : "dodgerblue" }
+{ "_id" : { "$oid" : "5c80cc37c1ff45377c4fb931" }, "name" : "Feu", "color" : "orangered" }
+{ "_id" : { "$oid" : "5c80cc3bc1ff45377c4fb932" }, "name" : "Poison", "color" : "indigo" }
+{ "_id" : { "$oid" : "5c80cc4fc1ff45377c4fb936" }, "name" : "Electrique", "color" : "gold" }
+{ "_id" : { "$oid" : "5c80cd78c1ff45377c4fb956" }, "name" : "Plante", "color" : "greenyellow" }
+{ "_id" : { "$oid" : "5c8141c4c1ff45c24c6c53e9" }, "name" : "Vol", "color" : "lavender" }
+{ "_id" : { "$oid" : "5c8141d7c1ff45c24c6c53f1" }, "name" : "Insecte", "color" : "lightgreen" }
+{ "_id" : { "$oid" : "5c8141e8c1ff45c24c6c53f9" }, "name" : "Normal", "color" : "gainsboro" }
+{ "_id" : { "$oid" : "5c8141ffc1ff45c24c6c5401" }, "name" : "Sol", "color" : "khaki" }
+{ "_id" : { "$oid" : "5c814218c1ff45c24c6c5409" }, "name" : "Fee", "color" : "lightpink" }
+{ "_id" : { "$oid" : "5c814230c1ff45c24c6c5411" }, "name" : "Combat", "color" : "firebrick" }
+{ "_id" : { "$oid" : "5c814244c1ff45c24c6c5419" }, "name" : "Psy", "color" : "deeppink" }
+{ "_id" : { "$oid" : "5c814253c1ff45c24c6c5421" }, "name" : "Roche", "color" : "chocolate" }
+{ "_id" : { "$oid" : "5c814265c1ff45c24c6c5429" }, "name" : "Acier", "color" : "silver" }
+{ "_id" : { "$oid" : "5c814279c1ff45c24c6c5431" }, "name" : "Glace", "color" : "paleturquoise" }
+{ "_id" : { "$oid" : "5c8144c7c1ff45c24c6c545b" }, "name" : "Spectre", "color" : "rebeccapurple" }
+{ "_id" : { "$oid" : "5c817145c1ff45c24c6c5468" }, "name" : "Dragon", "color" : "darkviolet" }
+{ "_id" : { "$oid" : "5c86394d4c911b3c2470a1c6" }, "name" : "test", "color" : "purple", "__v" : 0 }
