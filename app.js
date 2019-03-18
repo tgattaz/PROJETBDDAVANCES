@@ -1,3 +1,6 @@
+var port = process.env.PORT || 8000;
+
+
 var express = require('express');
 var mongoose = require('mongoose');
 var nunjucks = require('nunjucks');
@@ -16,6 +19,7 @@ require('./models/Type');
 
 
 var app = express();
+server = require('http').Server(app);
 
 //ici bodyparser ne sert à rien car notre formulaire est encodé en multiparse/form-data et décoder par du multer
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -38,5 +42,6 @@ nunjucks.configure('views', {
     express: app
 });
 
-console.log("Notre application lancée sur le port 3000.")
-app.listen('3000');
+server.listen(port, function() {
+    console.log("App is running on port " + port);
+});
