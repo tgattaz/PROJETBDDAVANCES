@@ -8,11 +8,11 @@ var upload = multer ({
     dest: __dirname + '/uploads'
 })
 
-mongoose.connect('mongodb://localhost/pokedex', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://user:user@cluster0-zt25f.mongodb.net/pokedex', { useNewUrlParser: true });
+//mongoose.connect('mongodb://localhost/pokedex', { useNewUrlParser: true });
 
 require('./models/Pokemon');
 require('./models/Type');
-
 
 
 var app = express();
