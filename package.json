@@ -1,36 +1,5 @@
 {
   "scripts": {
-  "start": "node app.js"
-  },
-   "script": {
-  "start": "node app.js"
-  },
-  "start": "node app.js",
-  "name": "pokedex",
-  "version": "1.0.0",
-  "description": "1) Importer dans votre BDD local les fichiers /pokemon-db/types.json & pokemons.json :\r mongoimport -d pokedex -c types --file /yourpath/types.json\r mongoimport -d pokedex -c pokemons --file /yourpath/pokemons.json",
-  "main": "app.js",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "mongodb": "^3.1.13",
-    "mongoose": "^5.4.17",
-    "multer": "^1.4.1",
-    "nunjucks": "^3.2.0",
-    "bootstrap": "^4.3.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tgattaz/PROJETBDDAVANCES.git"
-  },
-  "author": "Thomas Gattaz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tgattaz/PROJETBDDAVANCES/issues"
-  },
-  "homepage": "https://github.com/tgattaz/PROJETBDDAVANCES#readme"
+   "start": "node app.js"
+    },
 }
