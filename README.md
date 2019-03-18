@@ -10,4 +10,4 @@ mongo
 3) Lancer l'application de Pokédex en étant à la racine du projet :
 node app.js
 
-4) Consulter l'interface web sur : http://localhost:8000/
+4) Consulter l'interface web sur : http://localhost:3000/
