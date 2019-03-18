@@ -1,4 +1,7 @@
 {
+  "scripts": {
+  "start": "node app.js"
+  },
   "name": "pokedex",
   "version": "1.0.0",
   "description": "1) Importer dans votre BDD local les fichiers /pokemon-db/types.json & pokemons.json :\r mongoimport -d pokedex -c types --file /yourpath/types.json\r mongoimport -d pokedex -c pokemons --file /yourpath/pokemons.json",
